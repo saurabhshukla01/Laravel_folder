@@ -1,0 +1,33 @@
+How To install Laravel in Php framework 
+Url Install Laravel :
+
+https://www.phptpoint.com/install-laravel-on-windows/
+
+
+Step 1
+
+Visit the below-mentioned URL and download composer to install it on your system.
+url :
+https://getcomposer.org/download/
+
+install composer on window 10 ...
+
+Goto cmd open run administrators account : 
+$ composer
+
+Step 2
+After downloading composer, open the command prompt browse to the web server root directory or localhost folder. Well! Hopefully, you already have installed XAMPP or WAMP server in (C:\wamp, open C:\wamp\www)for PHP working environment.
+Goto this url path using cmd :
+$ C:\xampp\htdocs
+Step 3
+Now you need to type the following command to create a new Laravel project using composer.
+$ Composer create-project --prefer-dist laravel/laravel Project-name
+
+Step 4
+If you have done the steps mentioned above carefully and then you need to check whether it is properly working or not and for that, you need to test the installation by opening the following link in your browser.
+
+$  http://Localhost/mylaravel/public/
+		Or
+$  http://Localhost/project-name/public/
+
+View localhost install Laravel or not to check this command .
